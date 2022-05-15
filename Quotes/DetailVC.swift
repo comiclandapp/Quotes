@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  DetailVC.swift
 //  Quotes
 //
 //  Created by Matteo Manferdini on 28/05/2019.
@@ -8,15 +8,17 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
-	@IBOutlet weak var textLabel: UILabel!
+class DetailVC: UIViewController {
+
+    @IBOutlet weak var textLabel: UILabel!
 	@IBOutlet weak var authorLabel: UILabel!
 	
 	var quote: Quote?
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		textLabel.text = quote?.text.quoteFormatted
+
+        textLabel.text = quote?.text.quoteFormatted
 		authorLabel.text = quote?.author.authorFormatted
 	}
 }

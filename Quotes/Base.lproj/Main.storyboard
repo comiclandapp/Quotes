@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9jc-1e-kH7">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9jc-1e-kH7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +12,7 @@
         <!--Authors-->
         <scene sceneID="ka2-vY-k9i">
             <objects>
-                <viewController id="bjv-dk-8uo" customClass="AuthorsViewController" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bjv-dk-8uo" customClass="AuthorsVC" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yT7-GV-BcT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,14 +22,14 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="QuoteCell" rowHeight="110" id="rSM-aQ-JG8" customClass="QuoteCell" customModule="Quotes" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="110"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rSM-aQ-JG8" id="jH0-mb-amA">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="109.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hi9-pI-kj2">
-                                                    <rect key="frame" x="24" y="24" width="358" height="61.5"/>
+                                                    <rect key="frame" x="24" y="24" width="358" height="62"/>
                                                     <fontDescription key="fontDescription" name="Georgia-Italic" family="Georgia" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -56,6 +54,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ene-kM-ylx"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="jX7-JY-4dV" secondAttribute="bottom" id="NyX-80-7Ip"/>
@@ -63,7 +62,6 @@
                             <constraint firstItem="jX7-JY-4dV" firstAttribute="leading" secondItem="Ene-kM-ylx" secondAttribute="leading" id="XJo-JI-AAU"/>
                             <constraint firstItem="jX7-JY-4dV" firstAttribute="top" secondItem="yT7-GV-BcT" secondAttribute="top" id="g4W-tK-mdn"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Ene-kM-ylx"/>
                     </view>
                     <navigationItem key="navigationItem" title="Authors" id="CKq-jw-FfQ"/>
                     <connections>
@@ -77,7 +75,7 @@
         <!--Quote-->
         <scene sceneID="c3m-RA-cai">
             <objects>
-                <viewController title="Quote" id="Irt-g5-ZGm" customClass="DetailViewController" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Quote" id="Irt-g5-ZGm" customClass="DetailVC" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j0j-WM-2Yb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,6 +94,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="H9N-JV-cz5"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="iJI-KK-ptt" firstAttribute="leading" secondItem="j0j-WM-2Yb" secondAttribute="leadingMargin" id="6d4-gy-ktI"/>
@@ -106,7 +105,6 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Vsi-ER-EEk" secondAttribute="trailing" id="yO9-xN-ek9"/>
                         </constraints>
                         <directionalEdgeInsets key="directionalLayoutMargins" top="32" leading="32" bottom="32" trailing="32"/>
-                        <viewLayoutGuide key="safeArea" id="H9N-JV-cz5"/>
                     </view>
                     <connections>
                         <outlet property="authorLabel" destination="iJI-KK-ptt" id="zM1-ow-FlN"/>
@@ -120,7 +118,7 @@
         <!--Quotes-->
         <scene sceneID="gtI-gX-xVa">
             <objects>
-                <viewController id="IFe-Lb-QnH" customClass="QuotesViewController" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IFe-Lb-QnH" customClass="QuotesVC" customModule="Quotes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sKc-9t-mOI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -131,23 +129,26 @@
                                 <inset key="separatorInset" minX="24" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="QuoteCell" rowHeight="144" id="xyz-Sy-eF5" customClass="QuoteCell" customModule="Quotes" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="144"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="144"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xyz-Sy-eF5" id="Xwr-Sg-kxt">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="143.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="144"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="7VS-aB-js7">
-                                                    <rect key="frame" x="24" y="24" width="366" height="95"/>
+                                                    <rect key="frame" x="24" y="24" width="366" height="95.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awk-N1-DIH">
-                                                            <rect key="frame" x="0.0" y="0.0" width="366" height="61.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="366" height="62"/>
                                                             <fontDescription key="fontDescription" name="Georgia-Italic" family="Georgia" pointSize="18"/>
                                                             <color key="textColor" name="Downriver"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="― Lorem Ipsum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drt-7g-a0e">
-                                                            <rect key="frame" x="0.0" y="77.5" width="366" height="17.5"/>
+                                                            <rect key="frame" x="0.0" y="78" width="366" height="17.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="17.5" id="2Du-ke-MQh"/>
+                                                            </constraints>
                                                             <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="15"/>
                                                             <color key="textColor" name="Downriver"/>
                                                             <nil key="highlightedColor"/>
@@ -172,6 +173,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="dtD-SF-jYZ"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="zVG-hW-tvN" secondAttribute="bottom" id="HYx-3B-xhK"/>
@@ -179,7 +181,6 @@
                             <constraint firstItem="zVG-hW-tvN" firstAttribute="trailing" secondItem="dtD-SF-jYZ" secondAttribute="trailing" id="nF6-9e-WNM"/>
                             <constraint firstItem="zVG-hW-tvN" firstAttribute="leading" secondItem="dtD-SF-jYZ" secondAttribute="leading" id="v4Y-88-0Tp"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="dtD-SF-jYZ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Quotes" id="F2y-Le-9oK"/>
                     <connections>
@@ -248,6 +249,9 @@
             <point key="canvasLocation" x="-707.24637681159425" y="266.51785714285711"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="NbX-jY-1SN"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Authors" width="30" height="30"/>
         <image name="Quotes" width="30" height="30"/>
@@ -258,7 +262,4 @@
             <color red="0.29019607843137257" green="0.56470588235294117" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="XBg-pm-fD7"/>
-    </inferredMetricsTieBreakers>
 </document>

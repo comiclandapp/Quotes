@@ -7,24 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		951671E3229D45F1008666DF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951671E2229D45F1008666DF /* DetailViewController.swift */; };
-		9571036A229AEAA0008EDC01 /* AuthorsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95710369229AEAA0008EDC01 /* AuthorsDataSource.swift */; };
-		9571036C229AF117008EDC01 /* AuthorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9571036B229AF117008EDC01 /* AuthorsViewController.swift */; };
+		951671E3229D45F1008666DF /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951671E2229D45F1008666DF /* DetailVC.swift */; };
+		9571036A229AEAA0008EDC01 /* QuotesDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95710369229AEAA0008EDC01 /* QuotesDS.swift */; };
+		9571036C229AF117008EDC01 /* AuthorsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9571036B229AF117008EDC01 /* AuthorsVC.swift */; };
 		958F66FA22905521007B610A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F66F922905521007B610A /* AppDelegate.swift */; };
 		958F66FF22905521007B610A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958F66FD22905521007B610A /* Main.storyboard */; };
 		958F670122905523007B610A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958F670022905523007B610A /* Assets.xcassets */; };
 		958F670422905523007B610A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958F670222905523007B610A /* LaunchScreen.storyboard */; };
 		958F670C22905582007B610A /* QuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F670B22905582007B610A /* QuoteCell.swift */; };
 		958F670E229055A3007B610A /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F670D229055A3007B610A /* Quote.swift */; };
-		958F6710229055B5007B610A /* QuotesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F670F229055B5007B610A /* QuotesDataSource.swift */; };
-		958F6712229055E8007B610A /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F6711229055E8007B610A /* QuotesViewController.swift */; };
+		958F6712229055E8007B610A /* QuotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F6711229055E8007B610A /* QuotesVC.swift */; };
 		95ED0D20229AF3B300C4AEE0 /* SectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95ED0D1F229AF3B300C4AEE0 /* SectionHeader.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		951671E2229D45F1008666DF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		95710369229AEAA0008EDC01 /* AuthorsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsDataSource.swift; sourceTree = "<group>"; };
-		9571036B229AF117008EDC01 /* AuthorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsViewController.swift; sourceTree = "<group>"; };
+		951671E2229D45F1008666DF /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		95710369229AEAA0008EDC01 /* QuotesDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesDS.swift; sourceTree = "<group>"; };
+		9571036B229AF117008EDC01 /* AuthorsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsVC.swift; sourceTree = "<group>"; };
 		958F66F622905521007B610A /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		958F66F922905521007B610A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		958F66FE22905521007B610A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,8 +32,7 @@
 		958F670522905523007B610A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		958F670B22905582007B610A /* QuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCell.swift; sourceTree = "<group>"; };
 		958F670D229055A3007B610A /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
-		958F670F229055B5007B610A /* QuotesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesDataSource.swift; sourceTree = "<group>"; };
-		958F6711229055E8007B610A /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		958F6711229055E8007B610A /* QuotesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesVC.swift; sourceTree = "<group>"; };
 		95ED0D1F229AF3B300C4AEE0 /* SectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeader.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,14 +66,13 @@
 		958F66F822905521007B610A /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
-				958F66FD22905521007B610A /* Main.storyboard */,
 				958F670222905523007B610A /* LaunchScreen.storyboard */,
+				958F66FD22905521007B610A /* Main.storyboard */,
 				958F66F922905521007B610A /* AppDelegate.swift */,
-				958F6711229055E8007B610A /* QuotesViewController.swift */,
-				951671E2229D45F1008666DF /* DetailViewController.swift */,
-				958F670F229055B5007B610A /* QuotesDataSource.swift */,
-				9571036B229AF117008EDC01 /* AuthorsViewController.swift */,
-				95710369229AEAA0008EDC01 /* AuthorsDataSource.swift */,
+				958F6711229055E8007B610A /* QuotesVC.swift */,
+				9571036B229AF117008EDC01 /* AuthorsVC.swift */,
+				95710369229AEAA0008EDC01 /* QuotesDS.swift */,
+				951671E2229D45F1008666DF /* DetailVC.swift */,
 				95ED0D1F229AF3B300C4AEE0 /* SectionHeader.xib */,
 				958F670B22905582007B610A /* QuoteCell.swift */,
 				958F670D229055A3007B610A /* Quote.swift */,
@@ -112,7 +109,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = "Matteo Manferdini";
 				TargetAttributes = {
 					958F66F522905521007B610A = {
@@ -157,13 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958F6712229055E8007B610A /* QuotesViewController.swift in Sources */,
-				951671E3229D45F1008666DF /* DetailViewController.swift in Sources */,
-				9571036C229AF117008EDC01 /* AuthorsViewController.swift in Sources */,
-				9571036A229AEAA0008EDC01 /* AuthorsDataSource.swift in Sources */,
+				958F6712229055E8007B610A /* QuotesVC.swift in Sources */,
+				951671E3229D45F1008666DF /* DetailVC.swift in Sources */,
+				9571036C229AF117008EDC01 /* AuthorsVC.swift in Sources */,
+				9571036A229AEAA0008EDC01 /* QuotesDS.swift in Sources */,
 				958F670E229055A3007B610A /* Quote.swift in Sources */,
 				958F670C22905582007B610A /* QuoteCell.swift in Sources */,
-				958F6710229055B5007B610A /* QuotesDataSource.swift in Sources */,
 				958F66FA22905521007B610A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +212,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -241,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,6 +274,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -296,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -311,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F8KT722AK;
 				INFOPLIST_FILE = Quotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -328,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F8KT722AK;
 				INFOPLIST_FILE = Quotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
